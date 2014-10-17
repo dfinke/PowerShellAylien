@@ -6,7 +6,7 @@ Is a PowerShell module wrapping the [Aylien](http://aylien.com/) package, consis
 ### Try Invoke-TextAnalysis
 
 ```powershell
-Import-Module ..\Aylien.psm1
+Import-Module .\Aylien.psm1
 
 $env:AylienApplicationId  = '<Your Aylien Application Id>'
 $env:AylienApplicationKey = '<Your Aylien Application Key>'
